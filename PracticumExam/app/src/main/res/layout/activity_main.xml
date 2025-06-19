@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="408dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="48dp"
+        android:text="Music Playlist Manager App"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtSongTitle"
+        android:layout_width="332dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:hint="Song Title"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/edtArtistName"
+        android:layout_width="332dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:hint="Artist Name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtSongTitle" />
+
+    <EditText
+        android:id="@+id/edtRating"
+        android:layout_width="332dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:hint="Rating(1-5)"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtArtistName" />
+
+    <EditText
+        android:id="@+id/edtComments"
+        android:layout_width="332dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:hint="Comments"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtRating" />
+
+    <Button
+        android:id="@+id/btnAddToPlaylist"
+        android:layout_width="145dp"
+        android:layout_height="62dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="207dp"
+        android:text="Add to Playlist"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginBottom="113dp"
+        android:text="Exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="113dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
