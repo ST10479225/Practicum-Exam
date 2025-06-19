@@ -6,5 +6,5 @@ The folloing screenshots are screenshots of the codes for the first and second s
 Now the following is the screenshot of the first screen before the user inputs information and how it looks before.![Screenshot_20250619_124711](https://github.com/user-attachments/assets/2085ecff-1c3d-419c-976b-17f6e2ab2b56)
 The following is a screenshot when the user has inputed information.![Screenshot_20250619_124917](https://github.com/user-attachments/assets/0fcaa18b-b61c-42b7-add4-1090f652d7a7)
 The following is a screenshot of the second screen.![Screenshot_20250619_124947](https://github.com/user-attachments/assets/e34cffa5-c71c-4ddb-9fd2-ae074500ff29)
-
+The following is the link to the GitHub repository https://github.com/ST10479225/Practicum-Exam
 
